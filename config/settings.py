@@ -30,7 +30,11 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "fallback-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", ".railway.app"]
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "drf-olcha-uz.up.railway.app"
+]
 
 
 # Application definition
